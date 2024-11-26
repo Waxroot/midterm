@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+:root{
+    --subtitle: 1.5rem;
+    --description: 1.5rem;
+    --linkcolor: #00b4d8;
+    --linktext: rgb(245, 248, 255);
+}
+body{
+    background-color: white;
+    font-family: Verdana;
+}
+li, a, button {
+    font-size: var(--subtitle);
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 80px;
+}
+button{
+    color: var(--linktext);
+    padding: 9px 25px;
+    background-color: var(--linkcolor);
+    border: none;
+    border-radius: 4px;
+}
+.logo{
+    height: 90px;
+    width: auto;
+}
+ 
+  #hero{
+    margin: 0%;
+    width: 100%;
+    height: 75vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.445)), url('/images/hero.jpg') no-repeat center / cover;
+    color: white;
+    display: flex;
+    align-items: center;  /* Vertically center content */
+    justify-content: center;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .info{
+    width: 100%;
+    text-align: center;
+  }
+  .container .info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .container .info h2{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+  }
+  .container .info a {
+    text-decoration: none;
+    display: inline-block;
+    background-color:var(--linkcolor);
+    border-radius: 4px;
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    color: var(--linktext);
+    margin-top: 1rem;
+  }
+.events-container{
+    font-weight: lighter;
+    font-size: var(--subtitle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em;
+}
+.gallery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+    padding: 0 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  .gallery {
+    display: flex;
+    flex-direction: column; /* Stack image and description vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: flex-start; /* Ensure consistent alignment */
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 10px 0;
+    text-align: center;
+    font-size: var(--subtitle);
+  }
+  
+  
+  .gallery a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--linkcolor);
+    border-radius: 4px;
+    padding: 0.5em 2em;
+    margin-top: 0.1rem;
+    color: var(--linktext);
+    font-size: var(--subtitle);
+  }
+  .adopt-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures even spacing */
+    padding: 1em;
+    background-color: rgb(58, 58, 58);
+    gap: 20px; /* Adds spacing between items */
+    color: white;
+    font-size: var(--subtitle);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.adopt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto; 
+    margin-bottom: 1.5em;
+
+}
+
+.adopt img {
+    width: 70%; /* Ensures the image fits the container */
+    height: auto; /* Maintains aspect ratio */
+    
+}
+  
+.want-container{
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: rgb(58, 58, 58);
+    padding: 2.5em;
+    color: white;
+    font-size: var(--subtitle);
+
+}
+.footer{
+    width: 100%;
+    padding: 50px 10%;
+    background: white;
+    display: flex;
+    font-size: var(--subtitle); 
+}
+
+
+.col-1 img{
+    width: 190px;
+    height: auto;
+}
+.col-2{
+    text-align: center;
+    flex-grow: 2;
+    
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-2 a{
+    display: block;
+    text-decoration: none;
+    color: var(--linkcolor);
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 40%;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+
+}
+.social-icons img{
+    height: 100px;
+    width: auto;
+    padding: 0.5rem
+}
+.contact {
+    margin-left: 10%;
+    text-align:left;
+
+}
+.adress{
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+.stuff p:last-of-type{
+    margin-top: 10px;
+}
+  
+ 
